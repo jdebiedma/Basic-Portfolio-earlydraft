@@ -4,12 +4,16 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin-top: 0px;
 	margin: 0px;
-	border-color: #dddddd
+	border-color: #dddddd;
+	width: 960px;
+	height: 1000px;
 
 	
 
 		
 }
+
+
 
 header {
 
@@ -87,7 +91,9 @@ height: 50px;
 
 	margin: 50px;
 	
-	width: 960px;
+	width: 100%;
+
+	
 
 }
 
@@ -101,6 +107,7 @@ height: 50px;
 	width: 650px;
 	float: left;
 	margin-right: 20px;
+	height: 60%;
 	
 
 }
