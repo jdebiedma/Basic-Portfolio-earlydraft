@@ -6,15 +6,36 @@ body {
 	margin: 0px;
 	padding: 0px;
 	border-color: #dddddd;
+
+
 	
 
 		
 }
 
+html, body {
+
+	height: 100%;
+	margin = 0;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
 .container {
 
 	width: 960px;
+	 min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
 }
+
+
+
 
 
 
@@ -134,11 +155,15 @@ background-color: white;
 
 }
 
+
+
 #bio-image {
 
 	
 	float: left;
 	padding-right: 20px;
+	margin-left: 20px;
+	margin-top:8px;
 
 }
 
@@ -153,4 +178,27 @@ p {
 
 
 
+footer {
 
+  background: grey;
+  color: white;
+  line-height: 80px;
+  padding: 0 10px;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+a{text-decoration:none;}
+
+a:hover {
+  color: orange;
+}
+
+
+
+.hover-outline:hover {
+  outline: solid #4aaaa5;
+  background-color: #4aaaa5;
+  
+}
